@@ -74,7 +74,7 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libantradio
+LOCAL_MODULE := libantradio_vince
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libantradio.so
